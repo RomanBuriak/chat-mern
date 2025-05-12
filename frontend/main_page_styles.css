@@ -12,7 +12,7 @@ body {
 }
 .chats-block {
   border: 1px solid black;
-  flex-basis: 25%;
+  flex-basis: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -27,12 +27,24 @@ body {
 }
 
 .account-block {
-  border: 1px solid black;
-  width: 24vw;
+  /* border: 1px solid black; */
+  width: 96%;
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-block-img {
+  /* background-color: #fff; */
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background: url("./imgs/profile_img.png"); */
 }
 
 .dialogue-block {
   border: 1px solid black;
-  flex-basis: 75%;
+  flex-basis: 60%;
 }
